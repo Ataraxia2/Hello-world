@@ -1,0 +1,162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		EE11A94A247252B900AB630F /* postun */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = postun; sourceTree = "<group>"; };
+		EE11A94B247252BA00AB630F /* post */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = post; sourceTree = "<group>"; };
+		EE11A94C247252BA00AB630F /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		EE11A94D247252BA00AB630F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EE11A94E247252BA00AB630F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		EE11A94F247252BA00AB630F /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		EE11A950247252BA00AB630F /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
+		EE11A951247252BA00AB630F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE11A952247252BA00AB630F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EE11A953247252BA00AB630F /* postinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = postinst; sourceTree = "<group>"; };
+		EE11A954247252BA00AB630F /* postrm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = postrm; sourceTree = "<group>"; };
+		EE11A955247252BA00AB630F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		EE11A956247252BA00AB630F /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		EE11A944247252B900AB630F = {
+			isa = PBXGroup;
+			children = (
+				EE11A94A247252B900AB630F /* postun */,
+				EE11A94B247252BA00AB630F /* post */,
+				EE11A94C247252BA00AB630F /* .DS_Store */,
+				EE11A94D247252BA00AB630F /* LICENSE */,
+				EE11A94E247252BA00AB630F /* Makefile */,
+				EE11A94F247252BA00AB630F /* tests */,
+				EE11A950247252BA00AB630F /* docs */,
+				EE11A951247252BA00AB630F /* README.md */,
+				EE11A952247252BA00AB630F /* .gitignore */,
+				EE11A953247252BA00AB630F /* postinst */,
+				EE11A954247252BA00AB630F /* postrm */,
+				EE11A955247252BA00AB630F /* .travis.yml */,
+				EE11A956247252BA00AB630F /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		EE11A949247252B900AB630F /* libcs50-develop */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = EE11A957247252BA00AB630F /* Build configuration list for PBXLegacyTarget "libcs50-develop" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/thomas2/Downloads/libcs50-develop";
+			dependencies = (
+			);
+			name = "libcs50-develop";
+			passBuildSettingsInEnvironment = 1;
+			productName = "libcs50-develop";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		EE11A945247252B900AB630F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+			};
+			buildConfigurationList = EE11A948247252B900AB630F /* Build configuration list for PBXProject "libcs50-develop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE11A944247252B900AB630F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE11A949247252B900AB630F /* libcs50-develop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		EE11A946247252B900AB630F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		EE11A947247252B900AB630F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		EE11A958247252BA00AB630F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "libcs50-develop";
+			};
+			name = Debug;
+		};
+		EE11A959247252BA00AB630F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "libcs50-develop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE11A948247252B900AB630F /* Build configuration list for PBXProject "libcs50-develop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE11A946247252B900AB630F /* Debug */,
+				EE11A947247252B900AB630F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE11A957247252BA00AB630F /* Build configuration list for PBXLegacyTarget "libcs50-develop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE11A958247252BA00AB630F /* Debug */,
+				EE11A959247252BA00AB630F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE11A945247252B900AB630F /* Project object */;
+}
